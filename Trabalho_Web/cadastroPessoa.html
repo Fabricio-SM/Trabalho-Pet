@@ -54,40 +54,83 @@
             <h1>Cadastro de Pessoas</h1>
 
             <div class="mb-3">
-            </div>
-
-            <div class="mb-3">
             <label for="name">Nome Completo:</label>
-            <input type="text" id="name" maxlength="75" required>
+            <input type="text" id="name" maxlength="75" required><br>
             </div>
 
             <div class="mb-3">
             <label for="cpf">CPF: </label>
-            <input type="text" id="cpf" maxlength="18" required><br><br>
+            <input type="text" id="cpf" maxlength="18" required><br>
             </div>
+
             <div class="mb-3">
             <label for="rg">RG: </label>
-            <input type="text" id="rg" maxlength="20"><br><br>
+            <input type="text" id="rg" maxlength="20"><br>
             </div>
 
             <div class="mb-3">
             <label for="end">Endereço: </label>
             <input type="text" id="end" maxlength="60">
+       
+            <label for="num">Número: </label>
+            <input type="text" id="num" maxlength="5" size="5"><br>
             </div>
 
             <div class="mb-3">
-            <label for="num">Número: </label>
-            <input type="text" id="num" maxlength="5" size="5"><br><br>
-            </div>
-            
             <label for="comp">Complemento: </label>
-            <input type="text" id="comp" maxlength="30"><br><br>
+            <input type="text" id="comp" maxlength="30"><br>
+            </div>  
 
+            <div class="mb-3">
             <label for="bairro">Bairro: </label>
-            <input type="text" id="bairro" maxlength="30"><br><br>
+            <input type="text" id="bairro" maxlength="30"><br>
+            </div>
 
+            <div class="mb-3">
             <label for="cidade">Cidade: </label>
-            <input type="text" id="cidade" maxlength="30"><br><br>
+            <input type="text" id="cidade" maxlength="30">
+            <label for="estado" class="form-label">Estado:</label>
+              <select id="estado" class="form-select">
+                <option selected>Choose...</option>
+                <option>AC</option>
+                <option>AL</option>
+                <option>AM</option>
+                <option>AP</option>
+                <option>BA</option>
+                <option>CE</option>
+                <option>DF</option>
+                <option>ES</option>
+                <option>GO</option>
+                <option>MA</option>
+                <option>MG</option>
+                <option>MS</option>
+                <option>MT</option>
+                <option>PA</option>
+                <option>PB</option>
+                <option>PE</option>
+                <option>PI</option>
+                <option>PR</option>
+                <option>RJ</option>
+                <option>RN</option>
+                <option>RO</option>
+                <option>RR</option>
+                <option>RS</option>
+                <option>SC</option>
+                <option>SE</option>
+                <option>SP</option>
+                <option>TO</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label for="tel">Telefone: </label>
+              <input type="text" id="cidade" maxlength="30"><br>
+            </div>
+
+            <div class="mb-3">
+              <label for="email">E-mail: </label>
+              <input type="email" id="email" maxlength="30"><br>
+            </div>
 
             <input type="button" value="Cadastrar" name="btncadastrar" id="idcadastrar" onclick="">
 
@@ -96,3 +139,4 @@
     </div>
 </body>
 </html>
+
